@@ -12,7 +12,7 @@ Follow these steps to start using MedIA-Wizard:
 
 ### Download
 
-[Click here to download the Installer from Google Drive](https://github.com/Ivan-Ayub97/AfinaWindows/releases/download/1.3.0/AfinaWindows1.3.0_Es.exe)  
+[Click here to download the Installer from Google Drive](https://drive.google.com/file/d/1BPSwOB5MwFXfVeYH09qUKDuWEMxWdtBL/view?usp=sharing)  
 
 2. **Run the installer** and follow the on-screen instructions.
 3. **Launch the application:** Run MedIA-Wizard.exe on your Windows system.
