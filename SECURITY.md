@@ -5,7 +5,7 @@
 If you believe you have discovered a security vulnerability in **MedIA-Wizard**, we ask that you report it responsibly. Please follow the steps below to report the issue:
 
 1. **Do not create a public issue or pull request** for any security-related vulnerability.
-2. **Email us directly** at [security@mediasoftware.com](mailto:security@mediasoftware.com).
+2. **Email us directly** at [security@mediasoftware.com](mailto:sellocasadenubes@gmail.com).
 3. Provide a detailed description of the vulnerability, including:
    - Steps to reproduce (if applicable).
    - Environment information (e.g., operating system, version of the software, hardware setup).
@@ -43,4 +43,4 @@ We encourage everyone to act responsibly when reporting security vulnerabilities
 
 ---
 
-For further questions or inquiries regarding security, please feel free to contact us at [security@mediasoftware.com](mailto:security@mediasoftware.com).
+For further questions or inquiries regarding security, please feel free to contact us at [security@mediasoftware.com](mailto:sellocasadenubes@gmail.com).
