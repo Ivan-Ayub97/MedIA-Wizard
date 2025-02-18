@@ -10,7 +10,10 @@ MedIA-Wizard is an **open-source desktop application** designed to enhance image
 
 Follow these steps to start using MedIA-Wizard:
 
-1. **Download the latest version** from the [GitHub Releases page](https://github.com/YOUR-USERNAME/MedIA-Wizard/releases).
+###Download
+
+[Click here to download the Installer from Google Drive](https://github.com/Ivan-Ayub97/AfinaWindows/releases/download/1.3.0/AfinaWindows1.3.0_Es.exe)  
+
 2. **Run the installer** and follow the on-screen instructions.
 3. **Launch the application:** Run MedIA-Wizard.exe on your Windows system.
 4. **Start enhancing your images and videos!**
