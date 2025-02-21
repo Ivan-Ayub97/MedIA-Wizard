@@ -67,7 +67,7 @@ MedIA-Wizard is based on [RealScaler](https://github.com/Djdefrag/RealScaler) an
 - **Anime4K** - Real-time upscaling method for animation. ([bloc97](https://github.com/bloc97/Anime4K))
 - **FFmpeg** - Multimedia framework for video processing. ([FFmpeg Team](https://ffmpeg.org/))
 
-MedIA-Wizard is distributed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+MedIA-Wizard is distributed under the **MIT License**. See the [LICENSE](LICENSE.md) file for more details.
 
 ## 🛠️ Development
 
