@@ -1,7 +1,3 @@
-Aquí tienes el README completo con la adición que solicitaste:
-
----
-
 # MedIA-Wizard
 
 ### AI-Powered Image and Video Upscaling Tool
@@ -59,7 +55,7 @@ Here you can see a comparison between the original image and the enhanced image 
 
 | Original Image | Enhanced Image (Real-ESRGANx4) |
 |-----------------|---------------------------------|
-| ![Original](Assets/OriginalImage.jpg) | ![Enhanced](Assets/upscalerImage.jpg) |
+| ![Original](Assets/OriginalImage.jpg) | ![Enhanced](Assets/UpscalerImage.jpg) |
 
 The image on the left is the original, and the one on the right is the same image enhanced using the **Real-ESRGANx4** model, which improves the quality and resolution, maintaining sharper details and visible noise reduction.
 
