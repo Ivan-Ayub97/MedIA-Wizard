@@ -1,3 +1,7 @@
+Aquí tienes el README completo con la adición que solicitaste:
+
+---
+
 # MedIA-Wizard
 
 ### AI-Powered Image and Video Upscaling Tool
@@ -47,7 +51,19 @@ MedIA-Wizard uses [PyInstaller](https://www.pyinstaller.org/) and [InnoSetup](ht
 4. **Start the process:** Click the **Start** button and let MedIA-Wizard do the work.
 5. **Save the enhanced files:** Once completed, the files will be saved in your chosen location.
 
-## 📸 Screenshots
+---
+
+## 🔍 Quality Comparison
+
+Here you can see a comparison between the original image and the enhanced image using the **Real-ESRGANx4** model.
+
+| Original Image | Enhanced Image (Real-ESRGANx4) |
+|-----------------|---------------------------------|
+| ![Original](Assets/OriginalImage.jpg) | ![Enhanced](Assets/upscalerImage.jpg) |
+
+The image on the left is the original, and the one on the right is the same image enhanced using the **Real-ESRGANx4** model, which improves the quality and resolution, maintaining sharper details and visible noise reduction.
+
+--- 
 
 ![Screenshot](Capture.png)
 
