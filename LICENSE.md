@@ -1,6 +1,6 @@
 ### **MIT License**
 
-Copyright (c) 2025 Iván Ayub
+Copyright (c) 2025 Iván Eduardo Chavez Ayub
 
 ---
 
