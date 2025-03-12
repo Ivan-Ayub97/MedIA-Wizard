@@ -1,3 +1,9 @@
+### Download
+
+[Click here to download the Installer .exe from Google Drive](https://drive.google.com/file/d/1BPSwOB5MwFXfVeYH09qUKDuWEMxWdtBL/view?usp=sharing)  
+
+---
+
 # MedIA-Wizard
 
 ### AI-Powered Image and Video Upscaling Tool
@@ -6,14 +12,15 @@ MedIA-Wizard is an **open-source desktop application** designed to enhance image
 
 ![MedIA-Wizard logo](Assets/logo.png)
 
+---
+
+![Screenshot](Capture.png)
+
+---
+
 ## 🚀 Installation
 
 Follow these steps to start using MedIA-Wizard:
-
-### Download
-
-[Click here to download the Installer .exe from Google Drive](https://drive.google.com/file/d/1BPSwOB5MwFXfVeYH09qUKDuWEMxWdtBL/view?usp=sharing)  
-
 2. **Run the installer** and follow the on-screen instructions.
 3. **Launch the application:** Run MedIA-Wizard.exe on your Windows system.
 4. **Start enhancing your images and videos!**
