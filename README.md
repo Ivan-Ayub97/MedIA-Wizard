@@ -1,6 +1,6 @@
 ### Download
 
-[Click here to download the Installer .exe from Google Drive](https://drive.google.com/file/d/1BPSwOB5MwFXfVeYH09qUKDuWEMxWdtBL/view?usp=sharing)  
+[DOWNLOAD SETUP](https://sourceforge.net/projects/media-wizard/)  
 
 ---
 
