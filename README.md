@@ -1,6 +1,6 @@
 ### Download
 
-[DOWNLOAD SETUP](https://sourceforge.net/projects/media-wizard/)  
+[Click Here to Download](https://sourceforge.net/projects/media-wizard/)  
 
 ---
 
