@@ -1,3 +1,0 @@
-https://drive.google.com/file/d/1G9Hq4JlaQFcvwGahKS5EPR9D6l-oWHIj/view?usp=drive_link
-
-Download the ffmpeg and exiftool .exe files from Google Drive and save them in this folder: Assets
