@@ -1,0 +1,3 @@
+https://sourceforge.net/projects/media-wizard/files/AI-onnx.zip/download
+
+Download the AI ​​models and save them in this folder: AI-onnx
