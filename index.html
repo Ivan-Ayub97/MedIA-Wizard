@@ -1,129 +1,129 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MedIA-Wizard</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #181818;
-        color: #f1f1f1;
-        margin: 0;
-        padding: 0;
-        font-size: 18px; /* Aumenté el tamaño de la fuente del cuerpo */
-    }
-
-    h1, h2, h3 {
-        color: #ffff00; /* Cambié el color a amarillo */
-        font-size: 2.5em; /* Aumenté el tamaño de los encabezados */
-    }
-
-    p, ul, ol {
-        color: #d3d3d3;
-        font-size: 1.1em; /* Aumenté el tamaño de la fuente para párrafos y listas */
-    }
-
-    a {
-        color: #ffff00; /* Cambié el color a amarillo */
-        text-decoration: none;
-        font-size: 1.1em; /* Aumenté el tamaño de la fuente de los enlaces */
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-        text-align: center; /* Centrado del contenido */
-    }
-
-    .header {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
-    .header h1 {
-        font-size: 3em;
-        margin-bottom: 10px;
-    }
-
-    .header h3 {
-        font-size: 1.8em; /* Aumenté el tamaño de la fuente para h3 */
-        margin-top: 0;
-    }
-
-    .section {
-        margin-bottom: 40px;
-        border-top: 2px solid #ffff00; /* División entre secciones */
-        padding-top: 20px;
-    }
-
-    .section img {
-        width: 100%;
-        max-width: 100%;
-        border-radius: 10px;
-        margin-top: 20px;
-    }
-
-    .comparison {
-        display: flex;
-        justify-content: space-between;
-        text-align: center; /* Centrado de la comparación */
-    }
-
-    .comparison div {
-        width: 48%;
-    }
-
-    .comparison img {
-        border-radius: 10px;
-    }
-
-    .btn {
-        background-color: #ff7f00;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 18px; /* Aumenté el tamaño de la fuente de los botones */
-        margin-top: 20px;
-    }
-
-    .btn:hover {
-        background-color: #e56b00;
-    }
-
-    footer {
-        text-align: center;
-        padding: 20px;
-        background-color: #222;
-        color: #fff;
-        margin-top: 40px;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-        .comparison {
-            flex-direction: column;
-            align-items: center;
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #181818;
+            color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+            font-size: 18px; /* Increased the font size for the body */
         }
 
-        .comparison div {
-            width: 100%;
-            margin-bottom: 20px;
+        h1, h2, h3 {
+            color: #ffff00; /* Changed the color to yellow */
+            font-size: 2.5em; /* Increased the size of the headers */
+        }
+
+        p, ul, ol {
+            color: #d3d3d3;
+            font-size: 1.1em; /* Increased the font size for paragraphs and lists */
+        }
+
+        a {
+            color: #ffff00; /* Changed the color to yellow */
+            text-decoration: none;
+            font-size: 1.1em; /* Increased the font size for links */
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center; /* Centered content */
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
         }
 
         .header h1 {
-            font-size: 2.5em;
+            font-size: 3em;
+            margin-bottom: 10px;
         }
-    }
-</style>
+
+        .header h3 {
+            font-size: 1.8em; /* Increased the font size for h3 */
+            margin-top: 0;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            border-top: 2px solid #ffff00; /* Division between sections */
+            padding-top: 20px;
+        }
+
+        .section img {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .comparison {
+            display: flex;
+            justify-content: space-between;
+            text-align: center; /* Centered comparison */
+        }
+
+        .comparison div {
+            width: 48%;
+        }
+
+        .comparison img {
+            border-radius: 10px;
+        }
+
+        .btn {
+            background-color: #ff7f00;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px; /* Increased the font size for buttons */
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #e56b00;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+            margin-top: 40px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .comparison {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .comparison div {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .header h1 {
+                font-size: 2.5em;
+            }
+        }
+    </style>
 
 </head>
 
@@ -140,7 +140,7 @@
         <!-- Overview Section -->
         <section class="section">
             <h2>MedIA-Wizard</h2>
-            <p><strong>MedIA-Wizard</strong> es una poderosa herramienta de escritorio de código abierto para mejorar la calidad y resolución de imágenes y videos utilizando avanzados modelos de IA. Basada en <a href="https://github.com/Djdefrag/RealScaler">RealScaler</a>, esta herramienta integra modelos optimizados como <strong>Real-ESRGAN</strong>, <strong>Waifu2x</strong> y <strong>Anime4K</strong>, ofreciendo una experiencia de escalado de medios optimizada.</p>
+            <p><strong>MedIA-Wizard</strong> is a powerful open-source desktop tool for enhancing image and video quality and resolution using advanced AI models. Based on <a href="https://github.com/Djdefrag/RealScaler">RealScaler</a>, this tool integrates optimized models like <strong>Real-ESRGAN</strong>, <strong>Waifu2x</strong>, and <strong>Anime4K</strong>, offering an optimized media upscaling experience.</p>
             <img src="Assets/logo.png" alt="MedIA-Wizard logo">
         </section>
 
@@ -227,12 +227,12 @@
         <section class="section">
             <h2>🤝 Contributions</h2>
             <p>Contributions are welcome! Feel free to fork the repository, open issues, and submit pull requests to improve the project.</p>
+        </section>
     </div>
 
     <!-- Footer -->
     <footer>
         <p>&copy; Made by Ivan-Ayub97. Open-source project. <a href="https://github.com/Ivan-Ayub97/MedIA-Wizard.git" target="_blank">Visit the GitHub repository</a>. 2025</p>
-        </footer>
     </footer>
 
 </body>
