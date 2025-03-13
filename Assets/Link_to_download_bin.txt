@@ -1,0 +1,3 @@
+https://sourceforge.net/projects/media-wizard/files/Assets_bin.zip/download
+
+Download the ffmpeg and exiftool .exe files and save them in this folder: Assets
