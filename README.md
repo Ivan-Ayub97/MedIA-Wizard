@@ -1,6 +1,6 @@
 ### Download
 
-[Click Here to Download](https://sourceforge.net/projects/media-wizard/)  
+[Click Here to Download](https://ivanayub97.itch.io/media-wizard)  
 
 ---
 
