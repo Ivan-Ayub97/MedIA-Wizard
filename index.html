@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedIA-Wizard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #181818;
+            color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3 {
+            color: #ff7f00;
+        }
+
+        p, ul, ol {
+            color: #d3d3d3;
+        }
+
+        a {
+            color: #ff7f00;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .header h3 {
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section img {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .comparison {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .comparison div {
+            width: 48%;
+        }
+
+        .comparison img {
+            border-radius: 10px;
+        }
+
+        .btn {
+            background-color: #ff7f00;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #e56b00;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+            margin-top: 40px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .comparison {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .comparison div {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .header h1 {
+                font-size: 2.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>MedIA-Wizard</h1>
+            <h3>AI-Powered Image and Video Upscaling Tool</h3>
+            <a href="https://drive.google.com/file/d/1BPSwOB5MwFXfVeYH09qUKDuWEMxWdtBL/view?usp=sharing" class="btn">Click here to download the .exe installer from Google Drive</a>
+        </header>
+
+        <!-- Overview Section -->
+        <section class="section">
+            <h2>MedIA-Wizard</h2>
+            <p><strong>MedIA-Wizard</strong> es una poderosa herramienta de escritorio de código abierto para mejorar la calidad y resolución de imágenes y videos utilizando avanzados modelos de IA. Basada en <a href="https://github.com/Djdefrag/RealScaler">RealScaler</a>, esta herramienta integra modelos optimizados como <strong>Real-ESRGAN</strong>, <strong>Waifu2x</strong> y <strong>Anime4K</strong>, ofreciendo una experiencia de escalado de medios optimizada.</p>
+            <img src="Assets/logo.png" alt="MedIA-Wizard logo">
+        </section>
+
+        <!-- Screenshot Section -->
+        <section class="section screenshot">
+            <h2>📸 Screenshot</h2>
+            <img src="Capture.png" alt="Screenshot of MedIA-Wizard">
+        </section>
+
+        <!-- Key Features Section -->
+        <section class="section">
+            <h2>🌟 Key Features</h2>
+            <ul>
+                <li><strong>Advanced AI Models for Upscaling:</strong> Utilizes <strong>Real-ESRGAN, Waifu2x, Anime4K</strong> and other optimized models to improve image and video quality with sharp details and noise reduction.</li>
+                <li><strong>Batch Processing:</strong> Upscale multiple images and videos simultaneously, ideal for restoring entire collections.</li>
+                <li><strong>Customizable Settings:</strong> Adjust output resolution, image/video format, and select the most suitable AI model for the best results.</li>
+                <li><strong>User-Friendly Interface:</strong> Designed for users of all skill levels, allowing image and video enhancement in just a few clicks.</li>
+                <li><strong>Open-Source:</strong> MedIA-Wizard is available under the <a href="https://opensource.org/licenses/MIT">MIT License</a>, allowing free modification and extension of its functionality.</li>
+            </ul>
+        </section>
+
+        <!-- Installation Section -->
+        <section class="section">
+            <h2>🚀 Installation</h2>
+            <p>Follow these steps to start using <strong>MedIA-Wizard</strong>:</p>
+            <ol>
+                <li><strong>Run the installer</strong> and follow the on-screen instructions.</li>
+                <li><strong>Launch the application</strong>: Run MedIA-Wizard.exe on your Windows system.</li>
+                <li><strong>Start enhancing your images and videos!</strong></li>
+            </ol>
+            <p>MedIA-Wizard uses <a href="https://www.pyinstaller.org/">PyInstaller</a> and <a href="http://www.jrsoftware.org/isinfo.php">InnoSetup</a> for easy installation and executable creation.</p>
+        </section>
+
+        <!-- How to Use Section -->
+        <section class="section">
+            <h2>🛠️ How to Use</h2>
+            <ol>
+                <li><strong>Launch the application</strong>: Run MedIA-Wizard.exe as administrator for better performance.</li>
+                <li><strong>Select your file</strong>: Load images, videos, or entire folders for upscaling.</li>
+                <li><strong>Configure the settings</strong>: Choose the AI model (Real-ESRGAN, Waifu2x, Anime4K, etc.) and adjust output resolution and format (PNG, JPEG, MP4, etc.).</li>
+                <li><strong>Start the process</strong>: Click the <strong>Start</strong> button and let MedIA-Wizard do its work.</li>
+                <li><strong>Save the enhanced files</strong>: Once the process is complete, the files will be saved in the selected location.</li>
+            </ol>
+        </section>
+
+        <!-- Quality Comparison Section -->
+        <section class="section comparison">
+            <h2>🔍 Quality Comparison</h2>
+            <div>
+                <h3>Original Image</h3>
+                <img src="Assets/OriginalImage.png" alt="Original Image">
+            </div>
+            <div>
+                <h3>Enhanced Image (Real-ESRGAN)</h3>
+                <img src="Assets/UpscalerImage.png" alt="Enhanced Image">
+            </div>
+        </section>
+
+        <!-- System Requirements Section -->
+        <section class="section">
+            <h2>📊 System Requirements</h2>
+            <ul>
+                <li><strong>Operating System:</strong> Windows 10 or later.</li>
+                <li><strong>RAM:</strong> Minimum 4GB, recommended 8GB or more.</li>
+                <li><strong>GPU:</strong> A <strong>NVIDIA GPU</strong> is recommended for faster processing.</li>
+                <li><strong>Storage:</strong> Enough space for output files depending on the size and number of processed media.</li>
+            </ul>
+        </section>
+
+        <!-- Credits Section -->
+        <section class="section">
+            <h2>📜 Credits and License</h2>
+            <p>MedIA-Wizard is based on <a href="https://github.com/Djdefrag/RealScaler.git">RealScaler</a> and integrates several open-source technologies, including:</p>
+            <ul>
+                <li><a href="https://github.com/Djdefrag/RealScaler.git">RealScaler</a> (MIT License)</li>
+                <li><a href="https://github.com/xinntao/Real-ESRGAN">Real-ESRGAN</a> (MIT License)</li>
+                <li><a href="https://github.com/tatsuend/Waifu2x">Waifu2x</a> (MIT License)</li>
+                <li><a href="https://anime4k.github.io/">Anime4K</a> (MIT License)</li>
+            </ul>
+            <p>MedIA-Wizard is distributed under the <a href="LICENSE.md">MIT License</a>. Please refer to the LICENSE file for more details.</p>
+        </section>
+
+        <!-- Contributions Section -->
+        <section class="section">
+            <h2>🤝 Contributions</h2>
+            <p>Contributions are welcome! Feel free to fork the repository, open issues, and submit pull requests to improve the project.</p>
+            <p>For more details, please visit the project's <a href="https://github.com/Djdefrag/RealScaler">GitHub Repository</a>.</p>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MedIA-Wizard. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
