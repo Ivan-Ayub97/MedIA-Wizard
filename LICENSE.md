@@ -1,6 +1,6 @@
 ### **MIT License**
 
-2025 Iván Eduardo Chavez Ayub
+2025 Iván E. C. Ayub
 
 ---
 
