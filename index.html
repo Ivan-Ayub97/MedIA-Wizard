@@ -117,6 +117,40 @@
             margin-top: 40px;
         }
 
+        /* Barra de navegación fija */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #222;
+            color: #fff;
+            padding: 10px;
+            z-index: 10;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #ffff00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .comparison {
@@ -132,11 +166,28 @@
             .header h1 {
                 font-size: 2.5em;
             }
+
+            nav ul {
+                flex-direction: column;
+            }
         }
     </style>
 </head>
 
 <body>
+
+    <!-- Barra de navegación fija -->
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#comparison">Comparison</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#usage">How to Use</a></li>
+            <li><a href="#requirements">System Requirements</a></li>
+            <li><a href="#credits">Credits</a></li>
+        </ul>
+    </nav>
 
     <div class="container">
         <!-- Header Section -->
@@ -154,19 +205,19 @@
         </header>
 
         <!-- Overview Section -->
-        <section class="section">
+        <section id="overview" class="section">
             <p><strong>MedIA-Wizard</strong> is a powerful open-source desktop application designed to enhance image and video quality and resolution using advanced AI models. Built on the powerful foundation of <a href="https://github.com/Djdefrag/RealScaler">RealScaler</a>, this tool provides an optimized media upscaling experience with state-of-the-art models such as <strong>Real-ESRGAN, Waifu2x, and Anime4K</strong>.</p>
             <img src="Assets/logo.png" alt="MedIA-Wizard logo">
         </section>
 
         <!-- Screenshot Section -->
-        <section class="section screenshot">
+        <section id="screenshot" class="section">
             <h2>📸 Screenshot</h2>
             <img src="Capture.png" alt="Screenshot of MedIA-Wizard">
         </section>
 
         <!-- Key Features Section -->
-        <section class="section">
+        <section id="features" class="section">
             <h2>🌟 Key Features</h2>
             <ul>
                 <li><strong>Advanced AI models for upscaling:</strong> Utilizes Real-ESRGAN, Waifu2x, Anime4K, and other optimized models to improve image and video quality with sharp details and noise reduction.</li>
@@ -177,7 +228,7 @@
         </section>
 
         <!-- Quality Comparison Section -->
-        <section class="section">
+        <section id="comparison" class="section">
             <h2>🔍 Quality Comparison</h2>
             <p>Here you can see a comparison between the original image and the enhanced image using the <strong>Real-ESRGANx4</strong> model.</p>
     
@@ -196,7 +247,7 @@
         </section>
 
         <!-- Installation Section -->
-        <section class="section">
+        <section id="installation" class="section">
             <h2>🚀 Installation</h2>
             <p>To get started with <strong>MedIA-Wizard</strong>, follow these steps:</p>
             <ol>
@@ -208,47 +259,38 @@
         </section>
 
         <!-- How to Use Section -->
-        <section class="section">
+        <section id="usage" class="section">
             <h2>🛠️ How to Use</h2>
             <ol>
                 <li><strong>Launch the application</strong>: Run MedIA-Wizard.exe as an administrator for optimal performance.</li>
                 <li><strong>Select your media files</strong>: Upload images, videos, or entire folders for enhancement.</li>
                 <li><strong>Configure your settings</strong>: Choose the AI model (Real-ESRGAN, Waifu2x, Anime4K, etc.) and adjust the output resolution and format (PNG, JPEG, MP4, etc.).</li>
                 <li><strong>Start the enhancement process</strong>: Click the <strong>UPSCALE</strong> button to begin.</li>
-                <li><strong>Save your enhanced files</strong>: Once processing is complete, the files will be saved in your chosen location.</li>
+                <li><strong>Review the results</strong>: Once the processing is complete, your enhanced media will be saved in the output folder.</li>
             </ol>
         </section>
 
         <!-- System Requirements Section -->
-        <section class="section">
-            <h2>📊 System Requirements</h2>
+        <section id="requirements" class="section">
+            <h2>⚙️ System Requirements</h2>
             <ul>
-                <li><strong>Operating System:</strong> Windows 10 or later.</li>
-                <li><strong>RAM:</strong> Minimum 4GB, recommended 8GB or more.</li>
-                <li><strong>GPU:</strong> A <strong>NVIDIA GPU</strong> is recommended for better performance.</li>
-                <li><strong>Storage:</strong> Sufficient space to store output files, depending on the size and number of processed files.</li>
+                <li><strong>OS:</strong> Windows 7 or later</li>
+                <li><strong>RAM:</strong> 8 GB minimum (16 GB recommended)</li>
+                <li><strong>GPU:</strong> Compatible with NVIDIA or AMD graphics for faster processing (recommended)</li>
+                <li><strong>Disk space:</strong> 500 MB for the application and model files</li>
             </ul>
         </section>
 
         <!-- Credits Section -->
-        <section class="section">
-            <h2>📜 Credits and License</h2>
-            <p>MedIA-Wizard is based on <a href="https://github.com/Djdefrag/RealScaler">RealScaler</a> and integrates several open-source technologies:</p>
-            <ul>
-                <li><a href="https://github.com/Djdefrag/RealScaler">RealScaler</a> (MIT License)</li>
-                <li><a href="https://github.com/tatsuuka/waifu2x">Waifu2x</a> (MIT License)</li>
-                <li><a href="https://github.com/Anime4K/Anime4K">Anime4K</a> (MIT License)</li>
-                <li><a href="https://onnxruntime.ai/">ONNX Runtime</a> (Apache License 2.0)</li>
-                <li><a href="https://pytorch.org/">PyTorch</a> (BSD License)</li>
-                <li><a href="https://ffmpeg.org/">FFmpeg</a> (LGPL or GPL License)</li>
-            </ul>
-            <p>MedIA-Wizard is released under the <a href="https://github.com/Ivan-Ayub97/MedIA-Wizard/blob/main/LICENSE.md">MIT License</a>.</p>
+        <section id="credits" class="section">
+            <h2>🎉 Credits</h2>
+            <p>MedIA-Wizard is built on the <a href="https://github.com/Djdefrag/RealScaler">RealScaler</a> project by Djdefrag. We would also like to acknowledge the contributions from the community and the developers behind the AI models like Real-ESRGAN, Waifu2x, and Anime4K.</p>
         </section>
+
     </div>
 
-    <!-- Footer -->
     <footer>
-        <p>Made by Iván E. C. Ayub (Ivan-Ayub97). Open-source project. <a href="https://github.com/Ivan-Ayub97/MedIA-Wizard.git" target="_blank">Visit the GitHub repository</a>. 2025.</p>
+        <p>© 2025 MedIA-Wizard. All rights reserved. | <a href="https://github.com/ivanayub97/MedIA-Wizard">GitHub Repository</a></p>
     </footer>
 
 </body>
