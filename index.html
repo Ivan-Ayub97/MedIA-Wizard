@@ -59,8 +59,8 @@
         .section {
             margin-bottom: 40px;
             padding: 20px;
-            border-top: 3px solid #d3d3d3; /* Separadores en gris claro */
-            border-bottom: 3px solid #d3d3d3; /* Separadores en gris claro */
+            border-top: 3px solid #d3d3d3;
+            border-bottom: 3px solid #d3d3d3;
         }
 
         .section img {
@@ -73,14 +73,17 @@
         .comparison {
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
         }
 
         .comparison div {
             width: 48%;
+            text-align: center;
         }
 
         .comparison img {
             border-radius: 10px;
+            width: 100%;
         }
 
         .btn {
@@ -92,23 +95,13 @@
             cursor: pointer;
             font-size: 16px;
             margin-top: 20px;
-            display: inline-flex;
-            align-items: center;
+            display: inline-block;
         }
 
         .btn:hover {
             background-color: #e56b00;
         }
 
-        .sf-badge {
-            margin-left: 0;
-            margin-top: 10px; /* Añadir un pequeño margen superior */
-            display: block;
-            width: 150px; /* Reducir el tamaño */
-            margin-left: auto;
-            margin-right: auto; /* Centrar el badge */
-        }
-        
         footer {
             text-align: center;
             padding: 20px;
@@ -143,14 +136,13 @@
         <header class="header">
             <h1>MedIA-Wizard</h1>
             <h3>AI-Powered Image and Video Upscaling Tool</h3>
-            <!-- Button and Itch.io Embed Integration -->
-            <a href="https://ivanayub97.itch.io/media-wizard" class="btn">
-                <!-- Begin Itch.io Embed -->
-                <iframe frameborder="0" src="https://itch.io/embed/3393835?linkback=true&amp;border_width=5&amp;bg_color=222222&amp;fg_color=c3bf1d&amp;link_color=238b8b&amp;border_color=ffffff" width="560" height="175">
-                    <a href="https://ivanayub97.itch.io/media-wizard">Media-Wizard by IvanAyub97</a>
-                </iframe>
-                <!-- End Itch.io Embed -->
+            <!-- Button and Itch.io Embed -->
+            <a href="https://ivanayub97.itch.io/media-wizard" class="btn" target="_blank">
+                Visit MedIA-Wizard on Itch.io
             </a>
+            <iframe frameborder="0" src="https://itch.io/embed/3393835?linkback=true&amp;border_width=5&amp;bg_color=222222&amp;fg_color=c3bf1d&amp;link_color=238b8b&amp;border_color=ffffff" width="560" height="175">
+                <a href="https://ivanayub97.itch.io/media-wizard">Media-Wizard by IvanAyub97</a>
+            </iframe>
         </header>
 
         <!-- Overview Section -->
@@ -160,7 +152,7 @@
         </section>
 
         <!-- Screenshot Section -->
-        <section class="section screenshot">
+        <section class="section">
             <h2>📸 Screenshot</h2>
             <img src="Capture.png" alt="Screenshot of MedIA-Wizard">
         </section>
@@ -169,65 +161,53 @@
         <section class="section">
             <h2>🌟 Key Features</h2>
             <ul>
-                <li><strong>Advanced AI models for upscaling:</strong> Utilizes Real-ESRGAN, Waifu2x, Anime4K, and other optimized models to improve image and video quality with sharp details and noise reduction.</li>
-                <li><strong>Batch processing:</strong> Upscale multiple images and videos simultaneously, ideal for restoring entire collections.</li>
-                <li><strong>Customizable settings:</strong> Adjust output resolution, image/video format, and select the most suitable AI model for the best results.</li>
-                <li><strong>User-friendly interface:</strong> Designed for users of all levels, making media enhancement easy and fast.</li>
+                <li><strong>Advanced AI models for upscaling:</strong> Real-ESRGAN, Waifu2x, Anime4K, and more.</li>
+                <li><strong>Batch processing:</strong> Upscale multiple files at once.</li>
+                <li><strong>Customizable settings:</strong> Adjust output format, resolution, and AI model.</li>
+                <li><strong>User-friendly interface:</strong> Easy and intuitive design.</li>
             </ul>
+        </section>
+
+        <!-- Quality Comparison Section -->
+        <section class="section">
+            <h2>🔍 Quality Comparison</h2>
+            <div class="comparison">
+                <div>
+                    <h3>Original Image</h3>
+                    <img src="Assets/OriginalImage.png" alt="Original Image">
+                </div>
+                <div>
+                    <h3>Enhanced Image (Real-ESRGANx4)</h3>
+                    <img src="Assets/UpscalerImage.png" alt="Enhanced Image">
+                </div>
+            </div>
         </section>
 
         <!-- Installation Section -->
         <section class="section">
             <h2>🚀 Installation</h2>
-            <p>To get started with <strong>MedIA-Wizard</strong>, follow these steps:</p>
             <ol>
-                <li><strong>Run the installer</strong> and follow the on-screen instructions.</li>
-                <li><strong>Launch the application</strong>: Run MedIA-Wizard.exe on your Windows system.</li>
-                <li><strong>Start enhancing your media!</strong></li>
-            </ol>
-            <p>MedIA-Wizard uses <a href="https://www.pyinstaller.org/">PyInstaller</a> and <a href="http://www.jrsoftware.org/isinfo.php">InnoSetup</a> for simplified installation and executable creation.</p>
-        </section>
-
-        <!-- How to Use Section -->
-        <section class="section">
-            <h2>🛠️ How to Use</h2>
-            <ol>
-                <li><strong>Launch the application</strong>: Run MedIA-Wizard.exe as an administrator for optimal performance.</li>
-                <li><strong>Select your media files</strong>: Upload images, videos, or entire folders for enhancement.</li>
-                <li><strong>Configure your settings</strong>: Choose the AI model (Real-ESRGAN, Waifu2x, Anime4K, etc.) and adjust the output resolution and format (PNG, JPEG, MP4, etc.).</li>
-                <li><strong>Start the enhancement process</strong>: Click the <strong>UPSCALE</strong> button to begin.</li>
-                <li><strong>Save your enhanced files</strong>: Once processing is complete, the files will be saved in your chosen location.</li>
+                <li>Run the installer.</li>
+                <li>Launch <strong>MedIA-Wizard.exe</strong>.</li>
+                <li>Start enhancing your media!</li>
             </ol>
         </section>
 
-        <!-- System Requirements Section -->
+        <!-- System Requirements -->
         <section class="section">
             <h2>📊 System Requirements</h2>
             <ul>
-                <li><strong>Operating System:</strong> Windows 10 or later.</li>
-                <li><strong>RAM:</strong> Minimum 4GB, recommended 8GB or more.</li>
-                <li><strong>GPU:</strong> A <strong>NVIDIA GPU</strong> is recommended for better performance.</li>
-                <li><strong>Storage:</strong> Sufficient space to store output files, depending on the size and number of processed files.</li>
+                <li><strong>OS:</strong> Windows 10 or later.</li>
+                <li><strong>RAM:</strong> 4GB minimum (8GB recommended).</li>
+                <li><strong>GPU:</strong> NVIDIA recommended.</li>
             </ul>
         </section>
 
-        <!-- Credits Section -->
-        <section class="section">
-            <h2>📜 Credits and License</h2>
-            <p>MedIA-Wizard is based on <a href="https://github.com/Djdefrag/RealScaler">RealScaler</a> and integrates several open-source technologies:</p>
-            <ul>
-                <li><a href="https://github.com/Djdefrag/RealScaler">RealScaler</a> (MIT License)</li>
-                <li><a href="https://github.com/tatsuuka/waifu2x">Waifu2x</a> (MIT License)</li>
-                <li><a href="https://github.com/Anime4K/Anime4K">Anime4K</a> (MIT License)</li>
-            </ul>
-            <p>MedIA-Wizard is released under the <a href="https://github.com/Ivan-Ayub97/MedIA-Wizard/blob/main/LICENSE.md">MIT License</a>.</p>
-        </section>
+        <!-- Footer -->
+        <footer>
+            <p>Made by Ivan-Ayub97. Open-source project. <a href="https://github.com/Ivan-Ayub97/MedIA-Wizard.git" target="_blank">GitHub Repository</a>.</p>
+        </footer>
     </div>
-
-    <!-- Footer -->
-    <footer>
-        <p>Made by Ivan-Ayub97. Open-source project. <a href="https://github.com/Ivan-Ayub97/MedIA-Wizard.git" target="_blank">Visit the GitHub repository</a>. Follow us for updates.</p>
-    </footer>
 
 </body>
 
