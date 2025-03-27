@@ -26,7 +26,7 @@ Each technology used in MedIA-Wizard has its own open-source license. Below are 
 - **[RealScaler](https://github.com/Djdefrag/RealScaler)** – MIT License
 - **[Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)** – Apache License 2.0
 - **[Waifu2x](https://github.com/nagadomi/waifu2x)** – MIT License
-- **[Anime4K](https://arxiv.org/abs/2103.14006)** – MIT License
+- **[Anime4K](https://github.com/bloc97/Anime4K)** – MIT License
 - **[ONNX Runtime](https://github.com/microsoft/onnxruntime)** – MIT License
 - **[FFmpeg](https://ffmpeg.org/)** – LGPL-2.1 or later (Some components under GPL)
 - **[PyInstaller](https://www.pyinstaller.org/)** – GPLv2 or later (Exceptions for bundling)
