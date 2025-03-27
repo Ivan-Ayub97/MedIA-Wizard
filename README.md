@@ -100,7 +100,7 @@ Contributions are welcome! To collaborate:
 2. **Make your improvements** or fixes.
 3. **Submit a pull request** with a clear description of the changes.
 
-If you have feedback, bug reports, or suggestions, contact us at [sellocasadenubes@gmail.com](mailto:sellocasadenubes@gmail.com).
+If you have feedback, bug reports, or suggestions, contact us at [negroayub97@gmail.com](mailto:negroayub97@gmail.com).
 
 ---
 
