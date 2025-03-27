@@ -1,6 +1,6 @@
 ### Download
 
-[Click Here to Download from the central Hub](https://warlockhub-17vu0fo.gamma.site/warlockhub)  
+[Click Here to Download from the Homepage](https://warlockhub-17vu0fo.gamma.site/warlockhub)  
 
 ---
 
