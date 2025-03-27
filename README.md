@@ -75,22 +75,24 @@ The image on the left is the original, and the one on the right is the same imag
 - **GPU:** A **NVIDIA GPU** is recommended for faster processing.
 - **Storage:** Sufficient space for output files based on the size and quantity of processed media.
 
-## 📜 Credits & License
+---
 
-MedIA-Wizard is based on [RealScaler](https://github.com/Djdefrag/RealScaler) and integrates various third-party technologies, including:
+### **Licenses of Integrated Technologies:**
 
-- **Real-ESRGAN** - Generative adversarial network for image upscaling. ([Xintao Wang et al.](https://github.com/xinntao/Real-ESRGAN))
-- **Waifu2x** - AI model optimized for digital art and anime. ([Nagadomi](https://github.com/nagadomi/waifu2x))
-- **Anime4K** - Real-time upscaling method for animation. ([bloc97](https://github.com/bloc97/Anime4K))
-- **FFmpeg** - Multimedia framework for video processing. ([FFmpeg Team](https://ffmpeg.org/))
+Each technology used in MedIA-Wizard has its own open-source license. Below are the licenses of the libraries and tools utilized:
 
-MedIA-Wizard is distributed under the **MIT License**. See the [LICENSE](LICENSE.md) file for more details.
+- **[RealScaler](https://github.com/Djdefrag/RealScaler)** – MIT License
+- **[Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)** – Apache License 2.0
+- **[Waifu2x](https://github.com/nagadomi/waifu2x)** – MIT License
+- **[Anime4K](https://arxiv.org/abs/2103.14006)** – MIT License
+- **[ONNX Runtime](https://github.com/microsoft/onnxruntime)** – MIT License
+- **[FFmpeg](https://ffmpeg.org/)** – LGPL-2.1 or later (Some components under GPL)
+- **[PyInstaller](https://www.pyinstaller.org/)** – GPLv2 or later (Exceptions for bundling)
+- **[Inno Setup](http://www.jrsoftware.org/isinfo.php)** – Inno Setup License
 
-## 🛠️ Development
+The use of MedIA-Wizard implies compliance with the terms of the open-source licenses of the aforementioned libraries and tools.
 
-- [RealScaler](https://github.com/Djdefrag/RealScaler) - Core upscaling engine.
-- [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) - Primary AI model.
-- [FFmpeg](https://ffmpeg.org/) - Video and image processing.
+---
 
 ## 🤝 Contributions
 
